@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Order Tavi's Tacos online - The best exotic tacos in town! Secure and convenient online ordering."> 
+		<meta name="keywords" content="Order Tacos, Mexican Food, Tavi's Tacos, Best Exotic Tacos, Online Food Ordering"> 
+		<meta name="author" content="Tavi's Tacos">
+		<link href="css/tavis-tacos-order-page.css" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+		<title>Order Placement</title>
+	</head>
+	<body>
+		<div class="background-container">
+			<div class="content">
+				<header>
+					<!-- This header tag will contain the company name, 
+					site navigation, and banner image. -->
+					<nav id="website-navigation">
+						<ul>
+							<li><h4><a href="#home">Home</a></h4></li>
+							<li><h4><a href="#about">About</a></h4></li>
+							<li><h4><a href="#order">Order</a></h4></li>
+							<li><h1><a href="#tavis-tacos">TAVI'S TACOS</a></h1></li>
+							<li><h4><a href="#find-us">Find Us</a></h4></li>
+							<li><h4><a href="#events">Events</a></h4></li>
+							<li><h4><a href="#tacomonials">Tacomonials</a></h4></li>
+						</ul>
+					</nav>
+				</header>
+				<main>
+					<!-- Order form section where customers can place their orders -->
+					<section>
+						<h2>Order Form</h2>
+						<form action="http://ss1.ciwcertified.com/cgi-bin/process.php" method="POST">
+							<!-- Form group for customer name input -->
+							<div>
+								<label for="name">Name</label>
+								<input type="text" id="name" name="name" required>
+							</div>
+							<!-- Form group for customer email input -->
+							<div>
+								<label for="email">Email</label>
+								<input type="email" id="email" name="email" required>
+							</div>
+							<!-- Form group for selecting the product to order -->
+							<div>
+								<label for="product">Product</label>
+								<select id="product" name="product" required>
+									<option value="quesadilla">Quesadilla</option>
+									<option value="burrito">Burrito</option>
+									<option value="nachos">Nachos</option>
+								</select>
+							</div>
+							<!-- Submit button for the order form -->
+							<div>
+								<button type="submit">Submit Order</button>
+							</div>
+						</form>
+					</section>
+				</main>
+			</div>
+		</div>
+	</body>
+</html>
