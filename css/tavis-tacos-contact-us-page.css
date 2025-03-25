@@ -12,13 +12,124 @@ body{
     font-family: 'Inter', sans-serif;
 	color: blue;
 	background-color: palegoldenrod;
-	background-image: url("images/hard-shell-taco.png");
+	background-image: url("https://clipground.com/images/taco-clipart-transparent-6.png");
 	background-size: 100px 100px;
 	background-position: center;
 	text-align: center;
 }
 
+/* Changes the font weight, border style, and border color of the navigation UI via the id 
+"website-navigation" */
+/* Removes list styling from the navigation UI so it's no longer bulleted */
+/* Hides content overflow */
+#website-navigation ul{
+	font-weight: bold;
+	border: 5px solid rgb(255, 140, 0);
+	list-style-type: none;
+	overflow: hidden;
+}
+
+/* Displays navigation elements as an inline block */
+/* Aligns all navigation elements vertically */
+#website-navigation ul li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Removes the underline from the navigation links */
+/* Changes spacing inside the borders of elements */
+#website-navigation ul li a{
+	text-decoration: none;
+	padding: 15px;
+}
+
 /* Changes the font weight of the form text */
 form{
 	font-weight: bold;
+}
+
+/* Changes the font weight, border style, and border color of the "Contact Us" header via 
+the class "contact" */
+/* Positions the element 20 pixels to the right */
+/* Positions the element absolutely relative to its nearest positioned ancestor */
+/* Positions the element negative 397 pixels to the bottom */
+.contact{
+	font-weight: bold;
+	border: 5px solid rgb(255, 140, 0);
+	right: 20px;
+	position: absolute;
+	bottom: -397px;
+}
+
+/* Removes the underline from the contact link */
+.contact a{
+	text-decoration: none;
+}
+
+/* Floats all social media links to the left */
+/* Positions the element absolutely relative to its nearest positioned ancestor */
+/* Positions the element negative 397 pixels to the bottom */
+.social-media{
+	float: left;
+	position: absolute;
+	bottom: -397px;
+}
+
+/* Sets the element's position relative to its normal position */
+/* Sets the minimum height of the element to 100% of the viewport height */
+.background-container{
+	position: relative; min-height: 100vh;
+}
+
+/* Creates an empty pseudo-element */
+/* Positions the element absolutely relative to its nearest positioned ancestor */
+/* Positions the element at the top of its containing block */
+/* Positions the element on the left edge of its containing block */
+/* Sets the width to 100% */
+/* Sets the height to 100% */
+/* Specifies the stack order of an element */
+.background-container::before{ 
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%; 
+	height: 100%;
+	z-index: 1; 
+}
+
+/* Sets the element's position relative to its normal position */
+/* Specifies the stack order of an element */
+/* Changes spacing inside the borders of elements */
+/* Rounds the corners of an element */
+/* Changes spacing outside the borders of elements */
+/* Adds shadow effects to the text */
+.content{
+	position: relative;
+	z-index: 2;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 20px;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Improve text readability */
+}
+
+/* Changes the colors of links and their mouse pointer interactions */
+a:link{
+	color: brown;
+}
+
+a:visited{
+	color: blue;
+}
+
+a:active{
+	color: orange;
+}
+
+a:hover{
+	color: green;
+}
+
+a:focus{
+	color: red;
 }

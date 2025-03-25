@@ -12,10 +12,12 @@ body{
     font-family: 'Inter', sans-serif;
 	color: blue;
 	background-color: palegoldenrod;
-	background-image: url("images/hard-shell-taco.png");
+	background-image: url("https://clipground.com/images/taco-clipart-transparent-6.png");
 	background-size: 100px 100px;
 	background-position: center;
 	text-align: center;
+	height: 100vh;
+	width: 100%;
 }
 
 /* Changes the font weight, border style, and border color of the navigation UI via the id 
@@ -29,18 +31,18 @@ body{
 	overflow: hidden;
 }
 
-/* Floats the navigation UI to the left */
+/* Displays navigation elements as an inline block */
+/* Aligns all navigation elements vertically */
 #website-navigation ul li{
-	float: left;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 /* Removes the underline from the navigation links */
 /* Changes spacing inside the borders of elements */
-/* Displays elements as a block */
 #website-navigation ul li a{
 	text-decoration: none;
 	padding: 15px;
-	display: block;
 }
 
 /* Changes the font weight of the "New Items" header via the class "new-items" */
@@ -49,35 +51,61 @@ body{
 }
 
 /* Displays elements as an inline block */
-/* Sets the width of those inline blocks to 30% */
+/* Sets the width of those inline blocks to 25% */
 /* Changes spacing outside the borders of elements */
 /* Adds shadow effects to elements */
 /* Changes spacing inside the borders of elements */
-.item{
+/* Floats the inline block to the left */
+.quesadillas{
 	display: inline-block;
-	width: 30%;
+	width: 25%;
 	margin: 0 1%;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	padding: 10px;
-}
-
-/* Floats the quesadillas item data to the left */
-.quesadillas{
 	float: left;
 }
 
-/* Floats the nachos item data to the right */
-.nachos{
+/* Displays elements as an inline block */
+/* Sets the width of those inline blocks to 25% */
+/* Changes spacing outside the borders of elements */
+/* Adds shadow effects to elements */
+/* Changes spacing inside the borders of elements */
+/* Centers the inline block by setting the float to none */
+.burritos{
+	display: inline-block;
+	width: 25%;
+	margin: 0 1%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	padding: 10px;
+	float: none;
+}
+
+/* Displays elements as an inline block */
+/* Sets the width of those inline blocks to 25% */
+/* Changes spacing outside the borders of elements */
+/* Adds shadow effects to elements */
+/* Changes spacing inside the borders of elements */
+/* Floats the inline block to the right */
+.nachos-and-cheese{
+	display: inline-block;
+	width: 25%;
+	margin: 0 1%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	padding: 10px;
 	float: right;
 }
 
 /* Changes the font weight, border style, and border color of the "Contact Us" header via 
-the class "contact-us" */
-/* Floats the contact link to the right */
+the class "contact" */
+/* Positions the element 20 pixels to the right */
+/* Positions the element absolutely relative to its nearest positioned ancestor */
+/* Positions the element negative 412 pixels to the bottom */
 .contact{
 	font-weight: bold;
 	border: 5px solid rgb(255, 140, 0);
-	float: right;
+	right: 20px;
+	position: absolute;
+	bottom: -400px;
 }
 
 /* Removes the underline from the contact link */
@@ -86,8 +114,12 @@ the class "contact-us" */
 }
 
 /* Floats all social media links to the left */
+/* Positions the element absolutely relative to its nearest positioned ancestor */
+/* Positions the element negative 412 pixels to the bottom */
 .social-media{
 	float: left;
+	position: absolute;
+	bottom: -400px;
 }
 
 /* Sets the element's position relative to its normal position */

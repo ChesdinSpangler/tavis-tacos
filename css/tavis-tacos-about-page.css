@@ -12,7 +12,7 @@ body{
     font-family: 'Inter', sans-serif;
 	color: blue;
 	background-color: palegoldenrod;
-	background-image: url("images/hard-shell-taco.png");
+	background-image: url("https://clipground.com/images/taco-clipart-transparent-6.png");
 	background-size: 100px 100px;
 	background-position: center;
 	text-align: center;
@@ -67,60 +67,36 @@ body{
 	overflow: hidden;
 }
 
-/* Floats the navigation UI to the left */
+/* Displays navigation elements as an inline block */
+/* Aligns all navigation elements vertically */
 #website-navigation ul li{
-	float: left;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 /* Removes the underline from the navigation links */
 /* Changes spacing inside the borders of elements */
-/* Displays elements as a block */
 #website-navigation ul li a{
 	text-decoration: none;
 	padding: 15px;
-	display: block;
 }
 
-.about {
-    background-color: #fafafa; /* Light background to keep it clean */
-    padding: 20px; /* Adds spacing inside the section */
-    border-radius: 10px; /* Slightly rounded corners for a modern look */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    margin: 20px auto; /* Adds spacing around the section */
-    max-width: 800px; /* Centers the content on the page */
-    line-height: 1.6; /* Increases readability */
-    font-size: 16px; /* Sets a standard font size */
-}
-
-/* Styling for the main header inside the about-us section */
-.about h2 {
-    color: #333; /* Dark text for contrast */
-    text-align: center; /* Centers the heading */
-    margin-bottom: 20px; /* Spacing below the heading */
-    font-size: 28px; /* Larger font size for emphasis */
-    text-transform: uppercase; /* Capitalizes all letters */
-    letter-spacing: 1px; /* Adds slight spacing between letters */
-}
-
-/* Paragraph text inside the about-us section */
-.about p {
-    color: #666; /* Gray text for a softer tone */
-    margin-bottom: 15px; /* Spacing between paragraphs */
-}
-
-/* Highlighting key phrases (like strong elements) */
-.about strong {
-    color: #000; /* Bold and dark text for emphasis */
-    font-weight: bold; /* Ensures extra weight on the text */
+/* Changes the font weight of the text */
+.about{
+	font-weight: bold;
 }
 
 /* Changes the font weight, border style, and border color of the "Contact Us" header via 
-the class "contact-us" */
-/* Floats the contact link to the right */
+the class "contact" */
+/* Positions the element 20 pixels to the right */
+/* Positions the element absolutely relative to its nearest positioned ancestor */
+/* Positions the element negative 402 pixels to the bottom */
 .contact{
 	font-weight: bold;
 	border: 5px solid rgb(255, 140, 0);
-	float: right;
+	right: 20px;
+	position: absolute;
+	bottom: -402px;
 }
 
 /* Removes the underline from the contact link */
@@ -129,8 +105,12 @@ the class "contact-us" */
 }
 
 /* Floats all social media links to the left */
+/* Positions the element absolutely relative to its nearest positioned ancestor */
+/* Positions the element negative 402 pixels to the bottom */
 .social-media{
 	float: left;
+	position: absolute;
+	bottom: -402px;
 }
 
 /* Changes the colors of links and their mouse pointer interactions */

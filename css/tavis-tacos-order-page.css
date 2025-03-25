@@ -12,10 +12,37 @@ body{
     font-family: 'Inter', sans-serif;
 	color: blue;
 	background-color: palegoldenrod;
-	background-image: url("images/hard-shell-taco.png");
+	background-image: url("https://clipground.com/images/taco-clipart-transparent-6.png");
 	background-size: 100px 100px;
 	background-position: center;
 	text-align: center;
+}
+
+/* Changes the font weight, border style, and border color of the "Contact Us" header via 
+the class "contact" */
+/* Positions the element 20 pixels to the right */
+/* Positions the element absolutely relative to its nearest positioned ancestor */
+/* Positions the element negative 435 pixels to the bottom */
+.contact{
+	font-weight: bold;
+	border: 5px solid rgb(255, 140, 0);
+	right: 20px;
+	position: absolute;
+	bottom: -435px;
+}
+
+/* Removes the underline from the contact link */
+.contact a{
+	text-decoration: none;
+}
+
+/* Floats all social media links to the left */
+/* Positions the element absolutely relative to its nearest positioned ancestor */
+/* Positions the element negative 435 pixels to the bottom */
+.social-media{
+	float: left;
+	position: absolute;
+	bottom: -435px;
 }
 
 /* Sets the element's position relative to its normal position */
@@ -67,18 +94,18 @@ body{
 	overflow: hidden;
 }
 
-/* Floats the navigation UI to the left */
+/* Displays navigation elements as an inline block */
+/* Aligns all navigation elements vertically */
 #website-navigation ul li{
-	float: left;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 /* Removes the underline from the navigation links */
 /* Changes spacing inside the borders of elements */
-/* Displays elements as a block */
 #website-navigation ul li a{
 	text-decoration: none;
 	padding: 15px;
-	display: block;
 }
 
 /* Changes spacing inside the borders of elements */
