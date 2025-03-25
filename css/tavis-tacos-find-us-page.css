@@ -43,9 +43,9 @@ body{
 	padding: 15px;
 }
 
-/* Changes the font weight of the "New Items" header via the class "new-items" */
-.new-items{
-	font-weight: bold;
+/* Changes the font size of the text */
+ .find-us{
+	font-size: 20px;
 }
 
 /* Displays elements as an inline block */
@@ -54,7 +54,7 @@ body{
 /* Adds shadow effects to elements */
 /* Changes spacing inside the borders of elements */
 /* Floats the inline block to the left */
-.quesadillas{
+.main-street{
 	display: inline-block;
 	width: 25%;
 	margin: 0 1%;
@@ -69,7 +69,7 @@ body{
 /* Adds shadow effects to elements */
 /* Changes spacing inside the borders of elements */
 /* Centers the inline block by setting the float to none */
-.burritos{
+.market-square{
 	display: inline-block;
 	width: 25%;
 	margin: 0 1%;
@@ -84,7 +84,7 @@ body{
 /* Adds shadow effects to elements */
 /* Changes spacing inside the borders of elements */
 /* Floats the inline block to the right */
-.nachos-and-cheese{
+.downtown-fiesta{
 	display: inline-block;
 	width: 25%;
 	margin: 0 1%;
