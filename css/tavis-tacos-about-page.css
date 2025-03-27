@@ -81,11 +81,6 @@ body{
 	padding: 15px;
 }
 
-/* Changes the font weight of the text */
-.about{
-	font-weight: bold;
-}
-
 /* Changes the font weight, border style, and border color of the "Contact Us" header via 
 the class "contact" */
 /* Positions the element 20 pixels to the right */

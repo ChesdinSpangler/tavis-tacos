@@ -49,7 +49,7 @@ body{
 /* Adds shadow effects to elements */
 /* Changes spacing inside the borders of elements */
 /* Floats the inline block to the left */
-.main-street{
+.taco-tuesday{
 	display: inline-block;
 	width: 25%;
 	margin: 0 1%;
@@ -64,7 +64,7 @@ body{
 /* Adds shadow effects to elements */
 /* Changes spacing inside the borders of elements */
 /* Centers the inline block by setting the float to none */
-.market-square{
+.art-festival{
 	display: inline-block;
 	width: 25%;
 	margin: 0 1%;
@@ -79,7 +79,7 @@ body{
 /* Adds shadow effects to elements */
 /* Changes spacing inside the borders of elements */
 /* Floats the inline block to the right */
-.downtown-fiesta{
+.cook-off{
 	display: inline-block;
 	width: 25%;
 	margin: 0 1%;
