@@ -1,4 +1,4 @@
-/* Changes spacing outside and inside the borders of elements*/
+/* Changes spacing outside and inside the borders of elements */
 /* Changes the font family to the "Inter" font (because it's the default font in Figma 
 and what I chose to use) */
 /* Changes the color of the website text */
@@ -18,7 +18,18 @@ body{
 	text-align: center;
 }
 
-/* Changes the font weight, border style, and border color of the navigation UI via the id 
+/* Sets a white background behind the text with 70% transparency */
+/* Displays background as an inline block */
+/* Changes spacing inside the borders of elements */
+/* Rounds the corners of the background */
+h1, h2, h3, h4, p{
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Changes the font weight, border weight, border style, and border color of the navigation UI via the id 
 "website-navigation" */
 /* Removes list styling from the navigation UI so it's no longer bulleted */
 /* Hides content overflow */
@@ -49,6 +60,7 @@ body{
 /* Adds shadow effects to elements */
 /* Changes spacing inside the borders of elements */
 /* Floats the inline block to the left */
+/* Changes the border weight, border style, and border color of the inline block */
 .main-street{
 	display: inline-block;
 	width: 25%;
@@ -56,6 +68,7 @@ body{
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	padding: 10px;
 	float: left;
+	border: 5px solid rgb(255, 140, 0);
 }
 
 /* Displays elements as an inline block */
@@ -64,6 +77,7 @@ body{
 /* Adds shadow effects to elements */
 /* Changes spacing inside the borders of elements */
 /* Centers the inline block by setting the float to none */
+/* Changes the border weight, border style, and border color of the inline block */
 .market-square{
 	display: inline-block;
 	width: 25%;
@@ -71,6 +85,7 @@ body{
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	padding: 10px;
 	float: none;
+	border: 5px solid rgb(255, 140, 0);
 }
 
 /* Displays elements as an inline block */
@@ -79,6 +94,7 @@ body{
 /* Adds shadow effects to elements */
 /* Changes spacing inside the borders of elements */
 /* Floats the inline block to the right */
+/* Changes the border weight, border style, and border color of the inline block */
 .downtown-fiesta{
 	display: inline-block;
 	width: 25%;
@@ -86,6 +102,7 @@ body{
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	padding: 10px;
 	float: right;
+	border: 5px solid rgb(255, 140, 0);
 }
 
 /* Changes the font weight, border style, and border color of the "Contact Us" header via 

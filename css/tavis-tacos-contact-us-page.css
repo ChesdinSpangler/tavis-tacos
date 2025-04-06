@@ -1,4 +1,4 @@
-/* Changes spacing outside and inside the borders of elements*/
+/* Changes spacing outside and inside the borders of elements */
 /* Changes the font family to the "Inter" font (because it's the default font in Figma 
 and what I chose to use) */
 /* Changes the color of the website text */
@@ -18,7 +18,18 @@ body{
 	text-align: center;
 }
 
-/* Changes the font weight, border style, and border color of the navigation UI via the id 
+/* Sets a white background behind the text with 70% transparency */
+/* Displays background as an inline block */
+/* Changes spacing inside the borders of elements */
+/* Rounds the corners of the background */
+h1, h2, h3, h4, label{
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Changes the font weight, border weight, border style, and border color of the navigation UI via the id 
 "website-navigation" */
 /* Removes list styling from the navigation UI so it's no longer bulleted */
 /* Hides content overflow */
